@@ -1,26 +1,50 @@
 Kevin Ward - 10/18/17 - Period 2
 Psueudocode assignment: Blackjack
 
-Step 1: Shuffle deck of 52 cards.
-Step 2: Pass out one card face down to each player.
-Step 3: Pass out one card face up to each player.
-Step 4: The players look at their cards, making sure that the face down card stays hidden from everyone else's view.
-Step 5: The players add up the total of their cards;
-        Number cards are worth face value, with the exeption of Ace, with is worth either a value 1 or 11, chosen by the player.
-        Face cards are all worth a value of 10. 
-Step 6: Players determine how close they are to having a combined total of 21.
-Step 7: If the player has a total of 21, the player calls blackjack and flips the card, giving him the win to the game.
+Shuffle deck of 52 cards;
 
-Step 8: If the players decide to Hit:
-          The player is given another card face up by asking the dealer.
-          Step 9a: The player adds the value of their new card to their total and determines how close they are to a value of 21.
-          Step 10a: If the player's total exceeds 21, a bust is called and that player loses the game, giving the win to the other player.
-          Step 11a: If the player's total is equal 21, they win the game.
-          Step 12a: If the player's total is less than 21, they decide whether they want to hit again, or Stand.
-Step 9: If the player decides to Stand:
-         The player locks in and stays with the total value they have.
-         Step 10b: The player awaits for the other person's moves.
-Step 10: Once both players have reached a stand, their totals are compared.
-Step 11: The player with the higher card value wins the game, without exceeding 21.
-         If the players tie, the round is a tie and nobody wins or loses.
+Pass out one card face down to each player;
+
+Pass out one card face up to each player;
+
+The players look at their cards, making sure that the face down card stays hidden from everyone else's view;
+
+The players add up the total of their cards;
+
+        Number cards are worth face value;
+        
+        If the card is an Ace:
+                Player can decide if it is worth 1 or 11;
+                
+        Face cards are worth a value of 10;
+        
+Players determine how close they are to having a combined total of 21;
+
+If the player has a total of 21, the player calls blackjack and flips the card, giving him the win to the game;
+
+If the players decide to Hit:
+          The player is given another card face up by asking the dealer;
+
+          The player adds the value of their new card to their total and determines how close they are to a value of 21;
+          
+          If the player's total exceeds 21:
+          A bust is called and that player loses the game
+          Other player wins;
+          
+          If the player's total is equal 21:
+          they win the game;
+          
+          If the player's total is less than 21:
+          They decide whether they want to hit again, or Stand;
+          
+If the player decides to Stand:
+         The player locks in and stays with the total value they have;
+         The player awaits for the other person's moves;
+         
+If both players have reached a stand:
+Compare their totals;
+
+The player with the higher card value wins the game, without exceeding 21;
+         If the players tie:
+         the round is a tie and nobody wins or loses;
         
