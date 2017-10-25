@@ -2,20 +2,20 @@ Kevin Ward - 10/18/17 - Period 2
 Psueudocode assignment: Blackjack
 
 Step 1: Shuffle deck of 52 cards.
-Step 2: Pass out one card face down to each player.
+Step 2: Pass out one card face down to each player. Players do not touch their cards until the entire hand is dealt to every player.
 Step 3: Pass out one card face up to each player.
 Step 4: The players look at their cards, making sure that the face down card stays hidden from everyone else's view.
 Step 5: The players add up the total of their cards;
         Number cards are worth face value, with the exeption of Ace, with is worth either a value 1 or 11, chosen by the player.
         Face cards are all worth a value of 10. 
 Step 6: Players determine how close they are to having a combined total of 21.
-Step 7: If the player has a total of 21, the player calls blackjack and flips the card, giving him the win to the game.
+Step 7: If the player has a total of 21 by adding an ace and a face card, the player calls blackjack and flips the card, giving them the win to the hand.
 
 Step 8: If the players decide to Hit:
           The player is given another card face up by asking the dealer.
           Step 9a: The player adds the value of their new card to their total and determines how close they are to a value of 21.
-          Step 10a: If the player's total exceeds 21, a bust is called and that player loses the game, giving the win to the other player.
-          Step 11a: If the player's total is equal 21, they win the game.
+          Step 10a: If the player's total exceeds 21, a bust is called and that player loses the hand, giving the win to the other player.
+          Step 11a: If the player's total is equal to 21, they win the hand.
           Step 12a: If the player's total is less than 21, they decide whether they want to hit again, or Stand.
 Step 9: If the player decides to Stand:
          The player locks in and stays with the total value they have.
